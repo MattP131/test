@@ -12,7 +12,7 @@
       <repository>
           <id>project.local</id>
           <name>project</name>
-          <url>file:${project.basedir}/libs</url>
+          <url>file:${project.basedir}/repo</url>
       </repository>
   </repositories>
   
