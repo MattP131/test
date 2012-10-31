@@ -9,6 +9,12 @@
   <url>http://maven.apache.org</url>
   
   
+  <localRepository>${user.home}/workspace/test/test-core/libs</localRepository>
+  <interactiveMode>false</interactiveMode>
+  <usePluginRegistry>false</usePluginRegistry>
+  <offline>false</offline>
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
