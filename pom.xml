@@ -8,11 +8,13 @@
   <name>test-core</name>
   <url>http://maven.apache.org</url>
   
-  
-  <localRepository>${user.home}/workspace/test/test-core/libs</localRepository>
-  <interactiveMode>false</interactiveMode>
-  <usePluginRegistry>false</usePluginRegistry>
-  <offline>false</offline>
+  <repositories>
+      <repository>
+          <id>project.local</id>
+          <name>project</name>
+          <url>file:${project.basedir}/libs</url>
+      </repository>
+  </repositories>
   
   
   <dependencies>
