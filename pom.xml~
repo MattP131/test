@@ -5,24 +5,7 @@
   <artifactId>test-core</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>test-core</name>
-  <url>http://maven.apache.org</url>
-  
-  
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-		<groupId>com.test</groupId>
-		<artifactId>javamail</artifactId>
-		<version>1.0</version>
-	</dependency>
-  </dependencies>
-  
+
   <build>
    <plugins>
     <plugin>
@@ -33,11 +16,11 @@
 	<assembleDirectory>target</assembleDirectory>
         <programs>
 	  <program>
-	   <mainClass>com.test.App</mainClass>
+	   <mainClass>App</mainClass>
            <name>test</name>
 	  </program>
  	  <program>
-	   <mainClass>com.test.FetchMail</mainClass>
+	   <mainClass>FetchMail</mainClass>
            <name>fetchmail</name>
 	  </program>
         </programs>
@@ -49,5 +32,7 @@
       </executions>
     </plugin>
    </plugins>
-  </build>
+  </build>	
 </project>
+
+
