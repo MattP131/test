@@ -14,5 +14,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+		<groupId>com.test</groupId>
+		<artifactId>javamail</artifactId>
+		<version>1.0</version>
+	</dependency>
   </dependencies>
 </project>
